@@ -1,0 +1,22 @@
+Audit: Force audit policy subcategory settings (Windows Vista or later) to override audit policy category settings --> Disabled
+Devices: Prevent users from installing printer drivers --> Enabled
+Devices: Restrict CD-ROM access to locally logged-on user only --> Enabled
+Devices: Restrict floppy access to locally logged-on user only --> Disabled
+Domain controller: Allow server operators to schedule tasks --> Disabled
+Domain controller: Refuse machine account password changes --> Disabled
+Interactive logon: Do not require CTRL+ALT+DEL --> Disabled
+Microsoft network client: Digitally sign communications (always) --> Enabled
+Microsoft network server: Digitally sign communications (always) --> Enabled
+Microsoft network server: Digitally sign communications (if client agrees) --> Enabled
+Network access: Do not allow anonymous enumeration of SAM accounts and shares --> Enabled
+Network access: Do not allow storage of passwords and credentials for network authentication --> Enabled
+Network security: Allow Local System to use computer identity for NTLM --> Enabled
+Network security: Allow LocalSystem NULL session fallback --> Disabled
+Network security: Force logoff when logon hours expire --> Enabled
+Shutdown: Allow system to be shut down without having to log on --> Disabled
+Shutdown: Clear virtual memory pagefile --> Enabled
+System cryptography: Use FIPS compliant algorithms for encryption, hashing, and signing --> Enabled
+System settings: Use Certificate Rules on Windows Executables for Software Restriction Policies --> Enabled
+User Account Control: Only elevate executables that are signed and validated --> Enabled
+User Account Control: Run all administrators in Admin Approval Mode --> Enabled
+User Account Control: Switch to the secure desktop when prompting for elevation --> Enabled

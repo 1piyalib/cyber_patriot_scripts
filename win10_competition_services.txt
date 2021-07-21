@@ -1,0 +1,1 @@
+Net.Tcp Port Sharing Service	Provides ability to share TCP ports over the net.tcp protocol.	Running	Automatic	Local System
